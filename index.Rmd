@@ -1,7 +1,7 @@
 ---
 title: "Mi primera web"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Tratando de crackear el código de hacer una web.
 site: distill::distill_website
 ---
 
@@ -15,4 +15,20 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
 ```
+
+## Primer intento de hacer algo con nada
+
+```{r}
+library(leaflet)
+```
+
+
+```{r}
+leaflet() %>% 
+  addMarkers(lng = -58.4469439, -34.5480059) %>%
+  addProviderTiles(providers$OpenStreetMap)
+```
+
+## **Pasaron cosas**
+
 

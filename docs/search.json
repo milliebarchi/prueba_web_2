@@ -2,19 +2,19 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "TPS anteriores",
+      "description": "Acá una intro sobre lo que hice para los trabajos prácticos 1 y 2. ",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-10-04T12:53:11-03:00"
+      "contents": "\r\n[Trabajo Práctico 1] (https://github.com/milliebarchi/IAU_II_TP1.git)\r\n[Trabajo Práctico 2] (https://github.com/milliebarchi/IAU_II_TP2.git)\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-10-04T18:54:08-03:00"
     },
     {
       "path": "index.html",
       "title": "Mi primera web",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "description": "Tratando de crackear el código de hacer una web.\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-10-04T12:53:14-03:00"
+      "contents": "\r\nPrimer intento de hacer algo con nada\r\n\r\n\r\n\r\n\r\n\r\n\r\nPasaron cosas\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-10-04T18:54:10-03:00"
     }
   ],
   "collections": []

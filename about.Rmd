@@ -1,10 +1,12 @@
 ---
-title: "About this site"
+title: "TPS anteriores"
 description: |
-  Some additional details about the website
+  Acá una intro sobre lo que hice para los trabajos prácticos 1 y 2. 
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+1. *Trabajo Práctico 1* https://github.com/milliebarchi/IAU_II_TP1.git
+2. *Trabajo Práctico 2* https://github.com/milliebarchi/IAU_II_TP2.git
