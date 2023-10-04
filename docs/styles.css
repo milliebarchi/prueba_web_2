@@ -1,3 +1,4 @@
+/* Estilo para la barra de navegación */
 .distill-site-nav {
   color: rgba(255, 255, 255, 0.8);
   background-color: #455a64;
@@ -12,6 +13,16 @@
 
 .distill-site-nav a:hover {
   color: white;
+}
+
+/* Estilo para los títulos del contenido y del índice */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 0.5em; /* Puedes ajustar este valor según tus preferencias */
+}
+
+/* Estilo específico para los títulos del índice */
+.tocify-header {
+  font-size: 0.4em; /* Puedes ajustar este valor según tus preferencias */
 }
 
 .distill-site-header {

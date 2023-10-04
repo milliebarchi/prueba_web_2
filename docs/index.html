@@ -2096,6 +2096,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <style type="text/css">
+  /* Estilo para la barra de navegación */
   .distill-site-nav {
     color: rgba(255, 255, 255, 0.8);
     background-color: #455a64;
@@ -2112,6 +2113,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: white;
   }
 
+  /* Estilo para los títulos del contenido y del índice */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 0.5em; /* Puedes ajustar este valor según tus preferencias */
+  }
+
+  /* Estilo específico para los títulos del índice */
+  .tocify-header {
+    font-size: 0.4em; /* Puedes ajustar este valor según tus preferencias */
+  }
+
   .distill-site-header {
   }
 
@@ -2123,6 +2134,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       display: none;
     }
   }
+
   </style>
   <!--/radix_placeholder_site_in_header-->
 
@@ -2165,15 +2177,24 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#primer-intento-de-hacer-algo-con-nada" id="toc-primer-intento-de-hacer-algo-con-nada">Primer intento de hacer algo con nada</a></li>
+<li><a href="#pasaron-cosas" id="toc-pasaron-cosas">Pasaron cosas</a></li>
+</ul>
+</nav>
+</div>
 <h2 id="primer-intento-de-hacer-algo-con-nada">Primer intento de hacer algo con nada</h2>
 <div class="layout-chunk" data-layout="l-body">
 
 </div>
 <div class="layout-chunk" data-layout="l-body">
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a2c91d55ebffeba32e81" style="width:624px;height:384px;"></div>
-<script type="application/json" data-for="htmlwidget-a2c91d55ebffeba32e81">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addMarkers","args":[-34.5480059,-58.4469439,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addProviderTiles","args":["OpenStreetMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[-34.5480059,-34.5480059],"lng":[-58.4469439,-58.4469439]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-b50531660f35d2af5d0b" style="width:624px;height:384px;"></div>
+<script type="application/json" data-for="htmlwidget-b50531660f35d2af5d0b">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addMarkers","args":[-34.5480059,-58.4469439,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addProviderTiles","args":["OpenStreetMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[-34.5480059,-34.5480059],"lng":[-58.4469439,-58.4469439]}},"evals":[],"jsHooks":[]}</script>
 </div>
-<h2 id="pasaron-cosas"><strong>Pasaron cosas</strong></h2>
+<h2 id="pasaron-cosas">Pasaron cosas</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

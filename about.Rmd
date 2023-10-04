@@ -8,5 +8,5 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-1. *Trabajo Práctico 1* https://github.com/milliebarchi/IAU_II_TP1.git
-2. *Trabajo Práctico 2* https://github.com/milliebarchi/IAU_II_TP2.git
+1. **Trabajo Práctico 1** https://github.com/milliebarchi/IAU_II_TP1.git
+2. **Trabajo Práctico 2** https://github.com/milliebarchi/IAU_II_TP2.git

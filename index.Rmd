@@ -29,6 +29,6 @@ leaflet() %>%
   addProviderTiles(providers$OpenStreetMap)
 ```
 
-## **Pasaron cosas**
+## Pasaron cosas
 
 
